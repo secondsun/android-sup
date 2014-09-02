@@ -24,6 +24,7 @@
             </intent-filter>
         </activity>
 
+        <service android:name="org.jboss.aerogear.android.impl.authz.AuthzService"/>
         <service android:name=".account.AuthenticatationService" >
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
